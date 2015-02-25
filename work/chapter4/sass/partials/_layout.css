@@ -1,0 +1,73 @@
+/*
+Error: Undefined mixin 'bs'.
+        on line 5 of _layout.scss, in `bs'
+        from line 5 of _layout.scss
+
+1: // ====================================================================
+2: // Layout styles, should only contain rules relating to the structure
+3: // ====================================================================
+4: * {
+5: 	@include bs;
+6: }
+7: [class^="inner"] {
+8: 	max-width: 75em;
+9: 	margin: auto;
+10: }
+
+Backtrace:
+_layout.scss:5:in `bs'
+_layout.scss:5
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:98:in `block in with_mixin'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:98:in `with_mixin'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:370:in `_render_with_sourcemap'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:287:in `render_with_sourcemap'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin.rb:82:in `update_stylesheets'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:350:in `watch_or_update'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:50:in `process_result'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/bin/scss:13:in `<top (required)>'
+D:/Ruby193/bin/scss:23:in `load'
+D:/Ruby193/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'bs'.\A         on line 5 of _layout.scss, in `bs'\A         from line 5 of _layout.scss\A \A 1: // ====================================================================\A 2: // Layout styles, should only contain rules relating to the structure\A 3: // ====================================================================\A 4: * {\A 5: 	@include bs;\A 6: }\A 7: [class^=\"inner\"] {\A 8: 	max-width: 75em;\A 9: 	margin: auto;\A 10: }"; }

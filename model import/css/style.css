@@ -109,7 +109,7 @@ button[disabled], input[disabled] { cursor: default; }
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
 
 /* line 424, ../sass/partials/_normalize.scss */
-input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"] { -webkit-appearance: textfield; box-sizing: content-box; }
 /* line 429, ../sass/partials/_normalize.scss */
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
 
@@ -123,10 +123,10 @@ textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* line 5, ../sass/style.scss */
-.bd { background-image: url('../img/1.jpg?1421995390'); }
+.bd { background-image: image-url("1.jpg"); }
 
 /* line 6, ../sass/style.scss */
-.bd { font-size: 24px; }
+.bd { font-size: 12px; }
 
 /* line 7, ../sass/style.scss */
 .bd1 { background-color: #FFBF00; }

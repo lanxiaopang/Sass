@@ -1,0 +1,73 @@
+/*
+Error: Undefined mixin 'background'.
+        on line 5 of _base.scss, in `background'
+        from line 5 of _base.scss
+
+1: body {
+2:     font-size: 1em;
+3:     line-height: 1.4;
+4:     // creates the tiled background to show off opacity
+5:     @include background(image-url("subtlenet2.png"));
+6:     font-family: "SansationRegular";
+7:     // Modernizr fallback for when there is no fontface support
+8:     .no-fontface & {
+9:     	font-family: "Verdana";
+10:     }
+
+Backtrace:
+_base.scss:5:in `background'
+_base.scss:5
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:98:in `block in with_mixin'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:98:in `with_mixin'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:370:in `_render_with_sourcemap'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:287:in `render_with_sourcemap'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin.rb:82:in `update_stylesheets'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:350:in `watch_or_update'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:50:in `process_result'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/bin/scss:13:in `<top (required)>'
+D:/Ruby193/bin/scss:23:in `load'
+D:/Ruby193/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'background'.\A         on line 5 of _base.scss, in `background'\A         from line 5 of _base.scss\A \A 1: body {\A 2:     font-size: 1em;\A 3:     line-height: 1.4;\A 4:     // creates the tiled background to show off opacity\A 5:     @include background(image-url(\"subtlenet2.png\"));\A 6:     font-family: \"SansationRegular\";\A 7:     // Modernizr fallback for when there is no fontface support\A 8:     .no-fontface & {\A 9:     	font-family: \"Verdana\";\A 10:     }"; }

@@ -1,0 +1,75 @@
+/*
+Error: Undefined variable: "$color9".
+        on line 14 of _chapter-examples.scss
+
+9: .and-me {
+10: 	@extend %clearfix;
+11: }
+12: 
+13: // Using variables to neaten the code
+14: $btn-mint: complement(lighten($color9,48%));
+15: $btn-mint-hover: complement(lighten($color9,40%));
+16: .main-link {
+17: 	@include button-links($btn-mint,$btn-mint-hover);
+18: }
+19: 
+
+Backtrace:
+_chapter-examples.scss:14
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:170:in `perform_arg'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:124:in `block in _perform'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:123:in `each'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:123:in `each_with_index'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:123:in `each'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:123:in `map'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:123:in `_perform'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:170:in `perform_arg'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:124:in `block in _perform'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:123:in `each'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:123:in `each_with_index'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:123:in `each'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:123:in `map'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/funcall.rb:123:in `_perform'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:458:in `visit_variable'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:370:in `_render_with_sourcemap'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:287:in `render_with_sourcemap'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin.rb:82:in `update_stylesheets'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:350:in `watch_or_update'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:50:in `process_result'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/bin/scss:13:in `<top (required)>'
+D:/Ruby193/bin/scss:23:in `load'
+D:/Ruby193/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$color9\".\A         on line 14 of _chapter-examples.scss\A \A 9: .and-me {\A 10: 	@extend %clearfix;\A 11: }\A 12: \A 13: // Using variables to neaten the code\A 14: $btn-mint: complement(lighten($color9,48%));\A 15: $btn-mint-hover: complement(lighten($color9,40%));\A 16: .main-link {\A 17: 	@include button-links($btn-mint,$btn-mint-hover);\A 18: }\A 19: "; }
